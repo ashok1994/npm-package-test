@@ -1,0 +1,4 @@
+#!/bin/bash
+rm -rf ./dist
+npx rollup --config rollup.new.config.js
+npx http-server

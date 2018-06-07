@@ -1,0 +1,5 @@
+#!/bin/bash
+rm -rf ./dist
+npx browserify script.old.js -o dist/script.old.js
+npx http-server
+
